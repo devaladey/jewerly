@@ -1,0 +1,30 @@
+.jwr-collection {
+    padding: 15rem 0;
+}
+
+.jwr-collection__row {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.jwr-collection__col-m-rt {
+    margin-right: 4rem;
+}
+
+.jwr-collection__col-m-lt {
+    margin-left: 4rem;
+}
+
+.jwr-collection__col-m-auto {
+    margin-left: auto;
+}
+
+.jwr-collection__row-pill {
+    justify-content: space-between;
+}
+
+.jwr-collection__actions {
+    text-align: center;
+    margin-top: 5rem;
+}

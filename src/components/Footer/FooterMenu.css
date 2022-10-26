@@ -1,0 +1,19 @@
+.footer-menu {
+    margin-top: 1.5rem;
+}
+
+.footer-menu__item {
+    list-style: none;
+}
+
+.footer-menu__item:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.footer-menu__link {
+    color: var(--color-white);
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: .6;
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.navbar-menu__item {
+    list-style: none;
+    padding-bottom: .5rem;
+    border-bottom: 2.5px solid transparent;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.navbar-menu__item:hover {
+    border-bottom: 2.5px solid var(--color-yellow);
+}
+
+.navbar-menu__link {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-white);
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.navbar-menu__item:hover .navbar-menu__link {
+    color: var(--color-yellow);
+}
+
+

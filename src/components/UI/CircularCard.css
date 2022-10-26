@@ -1,0 +1,21 @@
+.circular-card {
+    border-radius: 50%;
+    background-color: var(--color-white);
+}
+
+.circular-card--top-left {
+    border-top-left-radius: 0;
+}
+
+.circular-card--top-right {
+    border-top-right-radius: 0;
+}
+
+.circular-card--bottom-left {
+    border-bottom-left-radius: 0;
+}
+
+.circular-card--bottom-right {
+    border-bottom-right-radius: 0;
+}
+

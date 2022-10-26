@@ -1,0 +1,8 @@
+.products-cta {
+    margin-top: 3rem;
+}
+
+.products-cta__text {
+    line-height: 1.4;
+    color: var(--color-dark-green);
+}

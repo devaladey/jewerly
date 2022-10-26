@@ -1,0 +1,6 @@
+.header-texts__paragraph {
+    margin: 2.5rem 0;
+    font-size: 2rem;
+    color: var(--color-white);
+    line-height: 1.5;
+}

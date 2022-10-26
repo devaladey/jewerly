@@ -1,0 +1,10 @@
+.header-title {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--color-white);
+    line-height: 1.5;
+}
+
+.header-title__colored-span {
+    color: var(--color-yellow);
+}

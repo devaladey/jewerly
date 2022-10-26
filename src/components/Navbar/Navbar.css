@@ -1,0 +1,12 @@
+.navbar {
+    padding: 4rem 0;
+}
+
+.navbar__inner {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo {
+    margin-left: 6rem;
+}

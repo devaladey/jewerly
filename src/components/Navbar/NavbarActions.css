@@ -1,0 +1,31 @@
+.navbar-actions {
+    margin-left: auto;
+}
+
+.navbar-actions__item {
+    list-style: none;
+}
+
+.navbar-actions__link {
+    font-size: 2rem;
+    color: var(--color-white);
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-actions__badge {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-yellow);
+    color: var(--color-dark-green);
+    position: absolute;
+    top: 1rem;
+    right: -.3rem;
+}

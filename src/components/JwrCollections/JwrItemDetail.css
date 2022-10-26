@@ -1,0 +1,37 @@
+.jwr-item-detail {
+    width: 22rem;
+}
+
+.jwr-item-detail__title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    color: var(--color-white);
+    opacity: .8;
+    margin: 1.4rem 0;
+    line-height: 1.4;
+}
+
+.jwr-item-detail__bottom {
+    display: flex;
+    align-items: center;
+}
+
+.jwr-item-detail__price {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: var(--color-yellow);
+}
+
+.jwr-item-detail__icon {
+    color: var(--color-white);
+    font-size: 1.7rem;
+}
+
+.jwr-item-detail__icon:first-of-type {
+    margin-left: auto;
+}
+
+.jwr-item-detail__icon:last-of-type {
+    margin-left: 1.3rem;
+}

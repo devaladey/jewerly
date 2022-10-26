@@ -1,0 +1,35 @@
+.input-control {
+    margin-top: 2rem;
+    position: relative;
+    width: fit-content;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid var(--color-dark-green);
+    outline: none;
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color-dark-green);
+    background-color: transparent;
+    width: 47rem;
+}
+
+.input::placeholder {
+    opacity: 1;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-dark-green);
+}
+
+.input-action {
+    color: var(--color-dark-green);
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
