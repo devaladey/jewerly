@@ -29,3 +29,17 @@
     top: 1rem;
     right: -.3rem;
 }
+
+@media screen and (max-width: 900px) {
+    .navbar-actions {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar-actions {
+        margin-left: 0;
+    }
+}
+
+

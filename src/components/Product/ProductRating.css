@@ -1,0 +1,29 @@
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.product-rating__star-box {
+    margin-right: 1.4rem;
+}
+
+.product-rating__star {
+    color: var(--color-yellow);
+    font-size: 1.5rem;
+}
+
+.product-rating__star:not(:last-child) {
+    margin-right: .7rem;
+}
+
+.product-rating__text {
+    font-size: 1.5rem;
+    color: var(--color-white);
+    opacity: .6;
+}
+
+.product-detail__actions {
+    justify-content: flex-start;
+    margin: 1rem 0;
+}

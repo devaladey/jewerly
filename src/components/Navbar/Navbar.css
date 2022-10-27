@@ -10,3 +10,30 @@
 .navbar__logo {
     margin-left: 6rem;
 }
+
+.navbar__toggler {
+    color: var(--color-white);
+    font-size: 3.5rem;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar__logo {
+        font-size: 3.7rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar__inner {
+        justify-content: space-between;
+    }
+
+    .navbar__logo {
+        margin-left: 0;
+    }
+
+    .navbar__toggler {
+        display: block;
+    }
+}
+

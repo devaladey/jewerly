@@ -1,0 +1,13 @@
+.cart {
+    padding: 10rem 0;
+}
+
+.cart__row {
+    display: flex;
+}
+
+.cart__col:first-child {
+    flex: 1;
+    margin-right: 2rem;
+}
+

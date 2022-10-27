@@ -1,0 +1,18 @@
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info__title {
+    color: var(--color-yellow);
+    font-size: 1.7rem;
+    font-weight: 300;
+    opacity: .8;
+    margin-bottom: .7rem;
+}
+
+.contact-info__para {
+    color: var(--color-white);
+    font-size: 1.7rem;
+    opacity: .9;
+    letter-spacing: .1rem;
+}

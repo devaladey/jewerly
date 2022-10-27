@@ -7,3 +7,48 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and  (max-width: 1100px) {
+    .header__img-box {
+        width: 36rem;
+    }
+
+    .header__image {
+        width: 17rem;
+        height: 17rem;
+    }
+}
+
+@media screen and  (max-width: 900px) {
+    .header {
+        padding: 5rem 0;
+    }
+
+    .header__img-box {
+        width: 28rem;
+    }
+
+    .header__image {
+        width: 13rem;
+        height: 13rem;
+    }
+}
+
+@media screen and  (max-width: 830px) {
+    .header__img-box {
+        width: 22rem;
+    }
+
+    .header__image {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen and  (max-width: 780px) {
+    .header__img-box {
+        display: none;
+    }
+}
+
+

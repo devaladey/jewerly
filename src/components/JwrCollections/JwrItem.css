@@ -7,3 +7,10 @@
     height: 22rem;
 }
 
+.jwr-item--horizontal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

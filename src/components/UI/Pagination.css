@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination__pills {
+    display: flex;
+    align-items: center;
+}
+
+.pagination__pill {
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    color: var(--color-yellow);
+    margin: 0 .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.pagination__pill.active,
+.pagination__pill:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-dark-green);
+}
+
+.pagination__btn {
+    color: var(--color-yellow);
+    font-size: 1.6rem;
+    margin: 0 .5rem;
+}

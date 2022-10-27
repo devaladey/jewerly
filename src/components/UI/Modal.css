@@ -1,0 +1,73 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal__circle {
+    background-color: var(--color-dark-green);
+    width: 48rem;
+    height: 48rem;
+    padding: 7rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__dismiss-btn {
+    font-size: 2rem;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    color: var(--color-white);
+    opacity: .4;
+}
+
+.modal__title {
+    color: var(--color-yellow);
+    font-size: 3rem;
+    line-height: 1.4;
+}
+
+.modal__para {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 1.4;
+}
+
+.modal__para-colored {
+    color: var(--color-yellow);
+}
+
+.modal__input {
+    border: none;
+    border-bottom: .5px solid var(--color-white);
+    outline: none;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: var(--color-white);
+    background-color: transparent;
+    width: 100%;
+    margin-top: 1rem;
+    opacity: .7;
+}
+
+.modal__input::placeholder {
+    color: var(--color-white);
+    opacity: .5;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+.modal__send-btn {
+    color: var(--color-yellow);
+    font-size: 2rem;
+    position: absolute;
+    right: 7rem;
+    bottom: 30%;
+}

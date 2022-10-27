@@ -1,4 +1,4 @@
-.header-image {
+.quadrup-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,7 +7,7 @@
     width: 48rem;
 }
 
-.header-image__circle {
+.quadrup-image__circle {
     width: 23rem;
     height: 23rem;
 }

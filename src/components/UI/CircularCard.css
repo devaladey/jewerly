@@ -1,6 +1,9 @@
 .circular-card {
     border-radius: 50%;
     background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circular-card--top-left {

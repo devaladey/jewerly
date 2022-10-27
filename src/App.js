@@ -1,21 +1,26 @@
+import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
-import Catalogue from './components/Catalogue/Catalogue';
 import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import JwrCollection from './components/JwrCollections/JwrCollection';
 import Navbar from './components/Navbar/Navbar';
-import Products from './components/Product/Products';
+import CartScreen from "./Screens/Cart/CartScreen";
+import CatalogueScreen from "./Screens/Catalogue/CatalogueScreen";
+import ContactScreen from "./Screens/Contact/ContactScreen";
+import HomeScreen from "./Screens/Home/HomeScreen";
+import NotFoundScreen from "./Screens/NotFound/NotFoundScreen";
+import ProductDetailScreen from "./Screens/ProductDetail/ProductDetailScreen";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div style={{ display: 'none' }}>
-        <Header />
-        <JwrCollection />
-        <Products />
-      </div>
-      <Catalogue />
+      <Routes>
+        <Route path='/' element={<HomeScreen />} />
+        <Route path='/cart' element={<CartScreen />} />
+        <Route path='/contact' element={<ContactScreen />} />
+        <Route path='/catalogue' element={<CatalogueScreen />} />
+        <Route path='/product-detail' element={<ProductDetailScreen />} />
+        <Route path='*' element={<NotFoundScreen />} />
+      </Routes>
       <Footer />
     </>
   );

@@ -1,0 +1,52 @@
+.not-found {
+    padding: 3rem 0;
+    background-color: var(--color-pink);
+    color: var(--color-dark-green);
+}
+
+.not-found__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found__heading {
+    color: var(--color-dark-green);
+    margin-bottom: 3rem;
+}
+
+.not-found__text {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.not-found__para {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2rem 0;
+    opacity: 1;
+}
+
+.not-found__btn {
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
+}
+
+.not-found__image {
+    width: 70rem;
+    height: 35rem;
+    background-color: var(--color-dark-green);
+    margin-top: 4rem;
+}
+
+.not-found__footer-para {
+    color: var(--color-dark-green);
+    margin-top: 6rem;
+    opacity: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+

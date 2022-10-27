@@ -1,0 +1,16 @@
+.contact {
+    padding: 10rem 0;
+}
+
+.contact__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.contact__img-box {
+    width: 50rem;
+    height: 35rem;
+    border-radius: 20rem;
+    border-bottom-left-radius: 0;
+}

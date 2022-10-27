@@ -1,9 +1,10 @@
 import PrimaryHeading from '../Typography/PrimaryHeading';
 import Container from '../UI/Container';
-import './Footer.css';
 import FooterHeading from './FooterHeading';
 import FooterMenu from './FooterMenu';
 import FooterSocial from './FooterSocial';
+import './Footer.css';
+import FooterPara from './FooterPara';
 
 function Footer() {
     return (
@@ -27,7 +28,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className='footer__row'>
-                    <p className='footer__copyright-text'>&copy; 2022, jewerly .inc. All Rights Reserved.</p>
+                    <FooterPara />
                     <FooterSocial />
                 </div>
             </Container>

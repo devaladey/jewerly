@@ -1,7 +1,7 @@
 import PrimaryHeading from '../Typography/PrimaryHeading';
 import Container from '../UI/Container';
-import ProductCarousel from './ProductsCarousel';
 import ProductsCTA from './ProductsCTA';
+import ProductsCarousel from './ProductsCarousel';
 import './Products.css';
 
 function Products() {
@@ -9,7 +9,7 @@ function Products() {
         <section className='products'>
             <Container>
                 <PrimaryHeading className='products__heading'>FOLLOW PRODUCTS</PrimaryHeading>
-                <ProductCarousel />
+                <ProductsCarousel />
                 <ProductsCTA />
             </Container>
         </section>

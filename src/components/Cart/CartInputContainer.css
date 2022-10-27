@@ -1,0 +1,9 @@
+.cart-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.cart-input-container:not(:last-child) {
+    margin-bottom: 5rem;
+}

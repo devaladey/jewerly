@@ -4,3 +4,29 @@
     color: var(--color-white);
     line-height: 1.5;
 }
+
+@media screen and  (max-width: 780px) {
+    .header-texts__paragraph {
+        margin: 2.3rem 0;
+    }
+}
+
+@media screen and  (max-width: 570px) {
+    .header-texts__paragraph {
+        font-size: 1.8rem;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-texts__paragraph-break {
+        display: none;
+    }
+}
+
+@media screen and  (max-width: 400px) {
+    .header-texts__paragraph {
+        font-size: 1.7rem;
+        margin: 1.5rem 0;
+    }
+}

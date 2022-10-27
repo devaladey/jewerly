@@ -1,0 +1,9 @@
+.catalogue-items__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalogue-items__item:not(:last-child) {
+    margin-bottom: 2rem;
+}

@@ -1,8 +1,11 @@
 import { CircularCardBottomLeft, CircularCardBottomRight, CircularCardPerfect, CircularCardTopLeft, CircularCardTopRight } from '../UI/CircularCard';
-import './JwrItem.css';
 import JwrItemDetail from './JwrItemDetail';
+import JwrItemDetailHorizontal from './JwrItemDetailHorizontal';
+import './JwrItem.css';
 
-function JwrItem({ position, className }) {
+function JwrItem({ position, className, direction }) {
+
+    const isHorizontal = direction === 'horizontal';
     
     const circles = [
         <CircularCardBottomLeft className='jwr-item__img-box' />,
@@ -13,9 +16,9 @@ function JwrItem({ position, className }) {
     ];
 
     return (
-        <div className={`jwr-item ${className}`}>
+        <div className={`jwr-item ${className} ${isHorizontal ? 'jwr-item--horizontal' : '' }`}>
             {circles[position]}
-            <JwrItemDetail />
+            {isHorizontal ? <JwrItemDetailHorizontal /> : <JwrItemDetail />}
         </div>
     );
 }

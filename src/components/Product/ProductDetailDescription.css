@@ -1,0 +1,11 @@
+.product-detail-description {
+    font-size: 1.3rem;
+    color: var(--color-white);
+    line-height: 1.35;
+    font-weight: 300;
+}
+
+.product-detail-description:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
