@@ -2,7 +2,7 @@ import { CircularCardPerfect } from '../UI/CircularCard';
 import JwrItemDetail from './JwrItemDetail';
 import './JwrPillItem.css';
 
-function JwrPillItem() {
+function JwrPillItem({className}) {
     return ( 
         <div className='jwr-pill-item'>
             <CircularCardPerfect className='jwr-pill-item__img-box' />

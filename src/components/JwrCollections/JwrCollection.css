@@ -28,3 +28,41 @@
     text-align: center;
     margin-top: 5rem;
 }
+
+
+@media screen and (max-width: 900px) {
+
+    .jwr-collection {
+        padding: 8rem 0;
+    }
+
+    .jwr-collection__row {
+        margin-top: 5rem;
+        justify-content: space-between;
+    }
+
+    .jwr-collection__col-m-lt {
+        margin-left: 0;
+    }
+
+    .jwr-collection__col-m-rt {
+        margin-right: 0;
+    }
+
+    .jwr-collection__col-m-auto {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jwr-collection__row {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .jwr-collection__row-pill {
+        justify-content: space-between;
+    }
+
+}

@@ -15,6 +15,7 @@ function JwrCollection() {
                         <JwrItem position={1} className='jwr-collection__col' />
                         <JwrItem position={4} className='jwr-collection__col jwr-collection__col-m-lt' />
                         <JwrItem position={0} className='jwr-collection__col jwr-collection__col-m-auto' />
+
                     </div>
                     <div className='jwr-collection__row'>
                         <JwrItem position={0} className='jwr-collection__col' />

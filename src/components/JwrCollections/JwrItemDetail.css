@@ -35,3 +35,30 @@
 .jwr-item-detail__icon:last-of-type {
     margin-left: 1.3rem;
 }
+
+@media screen and (max-width: 700px) {
+    .jwr-item-detail{
+        width: 16rem;
+    }
+    .jwr-item-detail__title {
+        font-size: 1.5rem;
+    }
+
+    .jwr-item-detail__price {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jwr-item-detail{
+        width: auto;
+    }
+    .jwr-item-detail__title {
+        font-size: 2rem;
+    }
+
+    .jwr-item-detail__price {
+        font-size: 2.2rem;
+    }
+}
+

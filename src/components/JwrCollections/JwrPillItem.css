@@ -1,5 +1,13 @@
 .jwr-pill-item__img-box {
-    width: 50rem;
+    width: 40vw;
     height: 20rem;
     border-radius: 20rem;
+}
+
+@media screen and (max-width: 600px) {
+    .jwr-pill-item__img-box {
+        width: 40vw;
+        height: 20rem;
+        border-radius: 0;
+    }
 }
