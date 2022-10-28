@@ -11,3 +11,18 @@
     margin-right: 2rem;
 }
 
+@media screen and (max-width: 1000px) {
+    .cart__row {
+        flex-direction: column;
+    }
+
+    .cart__col {
+        flex: 1;
+        margin: 0;
+    }
+
+    .cart__col:last-child {
+        align-self: space-between;
+    }
+}
+

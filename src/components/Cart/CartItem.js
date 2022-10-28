@@ -10,9 +10,11 @@ function CartItem() {
     return (
         <div className='cart-item'>
             <CircularCardPerfect className='cart-item__img-box' />
+            <div className='cart-item__box'>
             <JwrItemTitle className='cart-item__title'>Bracelet {`<<anbarin>>`} in gilded silver and blue amber</JwrItemTitle>
             <CartActions />
             <JwrItemPrice className='cart-item__price'>$ 435.00</JwrItemPrice>
+            </div>
             <div className='cart-item__delete-btn'>
                 <button>X</button>
             </div>

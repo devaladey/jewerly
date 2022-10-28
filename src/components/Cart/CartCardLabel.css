@@ -7,12 +7,12 @@
 
 .cart-card-label__title {
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .cart-card-label__value {
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .cart-card-label--footer .cart-card-label__title {
@@ -21,4 +21,11 @@
 
 .cart-card-label--footer .cart-card-label__value {
     font-size: 1.9rem;
+}
+
+@media screen and (max-width: 1000px) { 
+    .cart-card-label {
+        margin-bottom: .6rem;
+        opacity: .8;
+    }
 }

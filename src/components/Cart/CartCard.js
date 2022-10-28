@@ -13,13 +13,18 @@ function CartCard() {
                 <CartCardLabel title='Subtotal' value='1345' />
                 <CartCardLabel title='Shipping' value='FREE' />
                 <CartCardLabel title='Promocode' value='0' />
+                <CartCardLabel className='cart-card__label--mobile' isFooter={true} title='Total' value='1345' />
             </div>
             <div className='cart-card__footer'>
-                <div className='cart-card__row'>
+                <div className='cart-card__row cart-card__row--desktop'>
                     <input type='text' placeholder='Enter code' className='cart-card__input' />
                     <Button className='cart-card__input-btn'>APPLY</Button>
                 </div>
-                <CartCardLabel isFooter={true} title='Total' value='1345' />
+                <CartCardLabel className='cart-card__label--desktop' isFooter={true} title='Total' value='1345' />
+                <div className='cart-card__row cart-card__row--mobile'>
+                    <input type='text' placeholder='Enter code' className='cart-card__input' />
+                    <Button className='cart-card__input-btn'>APPLY</Button>
+                </div>
                 <Button className='cart-card__btn'>PLACE YOUR ORDER</Button>
             </div>
         </Card>

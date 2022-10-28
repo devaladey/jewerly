@@ -8,8 +8,33 @@
     justify-content: space-between;
 }
 
+.footer__row:last-child {
+    align-items: center;
+}
+
 .footer__row:not(:last-of-type) {
     margin-bottom: 5rem;
 }
 
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 7rem 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        padding: 5rem 0;
+    }
+
+    .footer__row {
+        flex-wrap: wrap;
+    }
+
+    .footer__row > * {
+        margin-top: 3rem;
+        width: 100%;
+    }
+}
 
