@@ -1,0 +1,8 @@
+.topnav {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    left: 27rem;
+    background-color: var(--color-white);
+    height: 5rem;
+}
