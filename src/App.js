@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      {false && <Navbar />}
+      {true && <Navbar />}
       <Routes>
         <Route path='/' element={<HomeScreen />} />
         <Route path='/cart' element={<CartScreen />} />
